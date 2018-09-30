@@ -1,5 +1,7 @@
 .contact-div { padding: 40px 0; }
 
+.form-control { font-size: 14px; border-radius: 0; color: #555; }
+
 .form-col { margin: 0 auto; }
 
-.btn { padding: 6px 40px; }
+.sub-btn { padding: 6px 40px; background-color: #2b3142; color: #708090; font-size: 18px; }

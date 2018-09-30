@@ -4,12 +4,12 @@
   letter-spacing: 1.5px;
 }
 
-.navbar-light .navbar-nav  .active > .nav-link { color: #fff; text-transform: uppercase; }
+.navbar-light .navbar-nav  .active > .nav-link { color: #708090; text-transform: uppercase; font-weight: bold; }
 
 .navbar-light .navbar-brand:hover { color: #fff; }
 
-.navbar-light .navbar-nav .nav-link { color: #fff; text-transform: uppercase;
-  font-family: 'Oswald', sans-serif;
+.navbar-light .navbar-nav .nav-link { color: #708090; text-transform: uppercase;
+  font-family: 'Oswald', sans-serif; font-weight: bold;
 }
 
 .btn { border: none; background-color: transparent; }
@@ -17,4 +17,6 @@
 .btn:focus { box-shadow: none !important; }
 
 .dropdown-toggle::after { margin-left: 0.5rem; }
+
+.ngdropdown { background-color: #ECEFF1; }
 /*.navbar-collapse .navbar-nav { float: right; }*/
