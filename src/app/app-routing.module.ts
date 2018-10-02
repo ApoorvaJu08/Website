@@ -7,6 +7,7 @@ import { CommunityPartnerComponent } from './community-partner/community-partner
 import { TeamComponent } from './team/team.component';
 import { UpcomMeetingsComponent } from './upcom-meetings/upcom-meetings.component';
 import { HomePageLayoutComponent } from './home-page-layout/home-page-layout.component';
+import { SpeakersComponent } from './speakers/speakers.component';
 
 const routes: Routes = [
   { path: 'contact', component: ContactComponent },
@@ -15,6 +16,7 @@ const routes: Routes = [
   { path: 'team', component: TeamComponent },
   { path: 'upcom', component: UpcomMeetingsComponent },
   { path: 'home', component: HomePageLayoutComponent },
+  { path: 'past', component: SpeakersComponent },
 ];
 
 @NgModule({
