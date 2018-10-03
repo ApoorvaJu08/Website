@@ -25,3 +25,11 @@ a:hover { text-decoration: none; }
 .list-inline-item:not(:last-child) { margin-right: 6px; }
 
 i { color: #212739; font-size: 24px; line-height: 45px; }
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+  .list-inline-item { margin-bottom: 10px; }
+}
+
+@media only screen and (max-width: 767px) {
+  .list-inline-item { margin-bottom: 10px; }
+}

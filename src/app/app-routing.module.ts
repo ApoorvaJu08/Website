@@ -8,6 +8,7 @@ import { TeamComponent } from './team/team.component';
 import { UpcomMeetingsComponent } from './upcom-meetings/upcom-meetings.component';
 import { HomePageLayoutComponent } from './home-page-layout/home-page-layout.component';
 import { SpeakersComponent } from './speakers/speakers.component';
+import { AboutComponent } from './about/about.component';
 
 const routes: Routes = [
   { path: 'contact', component: ContactComponent },
@@ -17,6 +18,7 @@ const routes: Routes = [
   { path: 'upcom', component: UpcomMeetingsComponent },
   { path: 'home', component: HomePageLayoutComponent },
   { path: 'past', component: SpeakersComponent },
+  { path: 'about', component: AboutComponent },
 ];
 
 @NgModule({

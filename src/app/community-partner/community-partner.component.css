@@ -7,3 +7,7 @@ h2 { color: #212739; font-family: Oswald, sans-serif; letter-spacing: 1.2px; }
 .img-div { height: 150px; line-height: 155px; }
 
 img { width: 100%; }
+
+@media only screen and (max-width: 767px) {
+  img { width: 70%; }
+}

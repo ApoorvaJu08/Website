@@ -13,3 +13,7 @@ input { border-radius: 4px 0 0 4px; }
 button { vertical-align: top; border-radius: 0 4px 4px 0; background-color: #2b3142; color: #708090; }
 
 /*form { margin-bottom: 30px; }*/
+
+@media only screen and (max-width: 767px) {
+  h2 { font-size: 25px; }
+}

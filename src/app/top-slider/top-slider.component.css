@@ -16,7 +16,7 @@
     bottom: 25%;
     left: 35%;
     right: 15%;
-} 
+}
 
 h2 , h1 , h5 { font-family: Oswald, sans-serif; letter-spacing: 6px; }
 
@@ -49,4 +49,11 @@ h5 { font-size: 26px; }
     bottom: inherit;
     background-color: rgba(0,0,0,0.7);
     padding: 8px 7px;
+}
+
+@media only screen and (max-width: 767px) {
+  h2 { font-size: 20px; }
+  h1 { font-size: 40px; }
+  h5 { font-size: 12px; }
+  .carousel-caption { bottom: 30%; left: 28%; }
 }

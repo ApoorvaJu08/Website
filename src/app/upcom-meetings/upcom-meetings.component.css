@@ -27,3 +27,7 @@ p { font-family: Oswald, sans-serif; width: 70%; margin: auto; letter-spacing: 0
 }*/
 
 a { cursor: pointer; }
+
+@media only screen and (max-width: 767px) {
+  p { width: 100%; }
+}

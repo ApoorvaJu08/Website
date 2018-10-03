@@ -7,3 +7,10 @@
 .form-col { margin: 0 auto; }
 
 .sub-btn { padding: 6px 40px; background-color: #2b3142; color: #708090; font-size: 18px; }
+
+@media only screen and (max-width: 767px) {
+  .form-control {
+    width: 90%;
+    margin: 0 auto;
+  }
+}

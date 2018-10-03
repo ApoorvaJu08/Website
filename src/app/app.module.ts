@@ -17,6 +17,7 @@ import { ContactComponent } from './contact/contact.component';
 import { TopSliderComponent } from './top-slider/top-slider.component';
 import { AppRoutingModule } from './/app-routing.module';
 import { ShashankComponent } from './shashank/shashank.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { ShashankComponent } from './shashank/shashank.component';
     UpcomMeetingsComponent,
     ContactComponent,
     TopSliderComponent,
-    ShashankComponent
+    ShashankComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,NgbModule,AngularFontAwesomeModule, AppRoutingModule
